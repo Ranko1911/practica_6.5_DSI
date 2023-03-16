@@ -85,4 +85,16 @@ describe("index adaptador test", () => {
   it("sistema metrico ", () => {
     expect(adaptador.getPies()).to.be.equal(281.0137128)
   });
+  it("sistema metrico ", () => {
+    systemA.setCentimetros(32)
+  });
+  it("sistema metrico ", () => {
+    expect(adaptador.getPies()).to.be.equal(281.0137128)
+  });
+  it("sistema metrico ", () => {
+    systemA.setKilometros(1)
+  });
+  it("sistema metrico ", () => {
+    expect(adaptador.getPies()).to.be.equal(281.0137128)
+  });
 });

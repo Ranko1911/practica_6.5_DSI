@@ -1,8 +1,8 @@
 import "mocha";
 import { expect } from "chai";
-import { ImperialLength } from "../src/index";
-import { MetricLength } from "../src/index";
-import { Adapter } from "../src/index";
+import { ImperialLength } from "../src/imperial";
+import { MetricLength } from "../src/metrico";
+import { Adapter } from "../src/adapter";
 
 let variable = new ImperialLength(10)
 
